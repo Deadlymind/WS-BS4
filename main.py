@@ -46,3 +46,5 @@ f.close()
 # inputting the file into Pandas
 
 data = pd.read_csv("wuzzuf-illustrator.csv")
+
+data.info()
